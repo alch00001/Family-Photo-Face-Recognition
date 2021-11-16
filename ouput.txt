@@ -1,0 +1,46 @@
+PhotoProject.py
+README.md
+__pycache__
+faces
+main.py
+ouput.txt
+pictures
+
+>>> distance = myob.compare_faces("0IMG_0241.JPG","1IMG_0241.JPG")
+>>> print ("Distance between the two Images: "+ str(distance))
+Distance between the two Images: 0.6375571492339828
+
+
+>>> distance = myob.compare_faces("0IMG_0175.JPG","1IMG_0175.JPG")
+>>> print ("Distance between the two Images: "+ str(distance))
+Distance between the two Images: 0.5205198712996331
+
+>>> distance = myob.compare_faces("0IMG_0910.JPG","1IMG_0910.JPG")
+>>> ("Distance between the two Images: "+ str(distance))
+'Distance between the two Images: 0.5146511022494913
+
+>>> distance = myob.compare_faces("3IMG_0175.JPG", "4IMG_0175.JPG")
+>>> print ("Distance between the two Images: "+ str(distance))
+Distance between the two Images: 0.6699282990260501
+
+#mother daughter
+>>> distance = myob.compare_faces("0IMG_0933.JPG", "0IMG_0910.JPG")
+>>> print ("Distance between the two Images: "+ str(distance))
+Distance between the two Images: 0.7021049152786406
+
+#mother daughter
+>>> distance = myob.compare_faces("0IMG_0933.JPG", "0IMG_0175.JPG")
+>>> print ("Distance between the two Images: "+ str(distance))
+Distance between the two Images: 0.6940786465987256
+
+
+#mother father
+>>> distance = myob.compare_faces("0IMG_0933.JPG", "1IMG_0933.JPG")
+>>> print ("Distance between the two Images: "+ str(distance))
+Distance between the two Images: 0.7984264828584035
+
+#father daughter
+>>> distance = myob.compare_faces("1IMG_0933.JPG", "0IMG_0910.JPG")
+>>> print ("Distance between the two Images: "+ str(distance))
+Distance between the two Images: 0.7908480193569886
+
